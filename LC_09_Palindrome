@@ -1,0 +1,9 @@
+const isPalindrome = (number) => {
+  let reverseNumber = number.toString().split("").reverse().join("");
+  if (number >= 0) {
+    reverseNumber = reverseNumber * 1;
+  }
+  console.log(reverseNumber);
+  if (number === reverseNumber) return true;
+  else return false;
+};
