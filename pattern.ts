@@ -1,5 +1,5 @@
 //Star Triangle
-
+//https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa
 function starTriangle(n: number) {
   for (let i = 1; i <= n; i++) {
     //space
